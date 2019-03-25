@@ -1,0 +1,222 @@
+*{
+  margin:none;
+
+}
+
+html {
+  background-color: black;
+  user-select: none;
+  cursor: url('Task7-Cursor.cur'), auto;
+}
+
+/* Title Formating */
+#title-div {
+  width: 95vw;
+  height: 10vh;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 8vh;
+  margin-left: 0.3vw;
+}
+
+/* Image Formating */
+#img-div {
+  height: 40vh;
+  width: 40wv;
+}
+
+#click-icon {
+  height: 30vh;
+  width: 30wv;
+  position: absolute;
+  margin-left: 1vw;
+  overflow: hidden;
+  transition-duration: 0.5s;
+  transition-property: transform;
+}
+
+#click-icon:hover{
+  cursor: pointer;
+  transform: rotate(1440deg);
+  -webkit-transform: rotate(1440deg);
+}
+
+#click-icon:active{
+  transform: scale(1.1);
+}
+
+h2 {
+  color: #4682e2;
+  font-family: 'Roboto Slab', serif;
+  font-size: 2vw;
+  position: relative;
+  text-align: left;
+  margin-left: 3vw;
+}
+
+/* Price Indicator */
+
+h4 {
+  color: #08a30d;
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.5vw;
+}
+
+/* Upgrades */
+#nbn-logo {
+  position: relative;
+  width: 6vw;
+  height: 4vh;
+}
+
+#electricity-logo {
+  position: relative;
+  width: 3vw;
+  height: 6vh;
+  margin-top: -1vh;
+}
+
+#mac-logo {
+  position: relative;
+  width: 4vw;
+  height: 6vh;
+}
+
+#code-logo {
+  position: relative;
+  width: 4vw;
+  height: 6vh;
+}
+
+#upgrade-div2 {
+  float: right;
+  height: 10vh;
+  margin-top: 0.5vh;
+}
+
+#upgrade-div1 {
+  float: right;
+  position: fixeds;
+  height: 20vh;
+  margin-top: 15.5vh;
+}
+
+h3 {
+  font-size: 5vh;
+  color: #edcb21;
+  text-align: left;
+  font-family: 'Roboto Slab', serif;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+}
+
+.upgrade-price {
+  font-style: italic;
+  font-size: 0.75vw;
+  color: #08a30d;
+}
+
+.upgrades {
+  color: #4682e2;
+  border: 0.4vw solid #edcb21;
+  border-radius: 1vw;
+  width: 18vw;
+  height: 24vh;
+  margin: 1vh;
+  margin-top: 1.5vh;
+  font-size: 1.5vw;
+  text-align: center;
+  padding: 2vw;
+}
+
+.upgrades:hover {
+  background-color: #404040;
+  cursor: url('Task7-Cursor2.cur'), auto;
+}
+
+.bought-formatting {
+  font-style: strong;
+  font-size: 1vw;
+  color: red;
+}
+
+.upgrade-times {
+  color: #edcb21;
+}
+
+/* Miscelaneous */
+
+  /*Link1*/
+#link1 {
+  position: relative;
+  color: red;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1vw;
+}
+
+#link1-link {
+  color: #edcb21;
+  text-decoration: none;
+}
+
+#link1-link:hover {
+  color: #08a30d;
+}
+
+#link1-div {
+  position: absolute;
+  margin-top: 0vh;
+}
+
+  /* link2 */
+#link2 {
+  position: relative;
+  color: #08a30d;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1vw;
+}
+
+#link2-link {
+  color: #edcb21;
+  text-decoration: none;
+}
+
+#link2-link:hover {
+  color: red;
+}
+
+#link2-div {
+  position: absolute;
+}
+
+  /* other */
+a[href*="http"] {
+    padding-right: 1.5vw;
+    background: url(Task7-ExternalLink.png) no-repeat 100% 0;
+    background-size: 1.1vw 1.1vw;
+}
+
+#progress-word {
+  color: black;
+  font-size: 1.5vw;
+  font-family: 'Roboto Slab', serif;
+}
+
+#progress-bar {
+  color: #4682e2;
+  background-color: red;
+  width: 0vw;
+  height: 4.5vh;
+  border-radius: 10vw;
+  position: relative;
+}
+
+#percentage {
+  font-size: 1vw;
+}
